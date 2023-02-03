@@ -15,5 +15,20 @@ console.log(typeof country);
 console.log(typeof age);
 console.log(typeof isIndependent);
 console.log(typeof student);
-console.log(typeof friends);
+
+//* Check array using Array.isArray
+console.log(Array.isArray(friends));
+
 console.log(typeof add);
+
+//*------------------------
+console.log(friends.includes(19));
+console.log(friends.includes(21));
+
+if(friends.indexOf(19) !== -1 ){
+
+}
+//* concat: 
+const newFriendsAge = [12, 13, 11, 14, 16];
+const allFriends =newFriendsAge.concat(friends);
+console.log(allFriends);
